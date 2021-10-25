@@ -20,11 +20,12 @@
 }
 
 
-
 .debug main .blocks .block img{
     width: 100%;
     border-radius: 10px;
 }
+
+
 
 .bg-color-1{
     background-color: #ba4b63;
@@ -47,17 +48,10 @@
 
 
 
-/* .debug .container-sm{
-    background-color: coral;
-    height: 50px;
-}
+@media screen and (min-width: 768px){
 
-.debug .container-md{
-    background-color: green;
-    height: 50px;
-}
 
-.debug .container-lg{
-    background-color: red;
-    height: 50px;
-} */
+    .blocks{
+        width: calc(100% / 2 - 32px);
+    }
+}
